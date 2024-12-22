@@ -10,15 +10,15 @@ private:
 	std::string shopName;
 public:
 	Price();
-	Price(std::string dest, int flightNum, std::string aircraft);
+	Price(std::string productName, int productPrice, std::string shopName);
 	Price(const Price& other);
 	~Price();
 	std::string getproductName();
-	void setproductName(std::string dest);
+	void setproductName(std::string productName);
 	int getproductPrice();
-	void setproductPrice(int flightNum);
+	void setproductPrice(int productPrice);
 	std::string getshopName();
-	void setshopName(std::string aircraft);
+	void setshopName(std::string shopName);
 	friend std::ostream& operator<<(std::ostream& os, const Price& obj);
 	friend std::istream& operator>>(std::istream& is, Price& obj);
 };
