@@ -10,6 +10,5 @@ public:
 	Strings();
 	~Strings();
 	void checkFile(const std::string& file);
-	std::string getAlphabet();
 };
 #endif
