@@ -5,7 +5,7 @@
 class Strings
 {
 private:
-	std::string alphabet;
+	std::string sentence;
 public:
 	Strings();
 	~Strings();
